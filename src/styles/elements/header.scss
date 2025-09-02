@@ -1,0 +1,21 @@
+.header {
+    margin: 25px auto;
+    color: var(--color-black);
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        list-style: none;
+        font-size: typo(12px, 14px);
+        margin: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}

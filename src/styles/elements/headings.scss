@@ -20,9 +20,10 @@ h1 {
 }
 
 h2 {
-    font-size: var(--font-size-h2);
-    font-family: var(--font-secondary);
+    font-size: typo(35px, 50px);
+    font-family: var(--font-primary);
     color: var(--color-primary);
+    font-weight: 600;
 }
 
 h3 {
