@@ -75,8 +75,23 @@
 
 <h2>Sports en image</h2>
 
-<img src="assets/images/swiper1.jpg" alt="" />
-<img src="assets/images/swiper2.jpg" alt="" />
-<img src="assets/images/swiper3.jpg" alt="" />
+<!-- Slider main container -->
+<div class="swiper" data-component="Carousel">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <img src="assets/images/swiper1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+            <img src="assets/images/swiper2.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+            <img src="assets/images/swiper3.jpg" alt="" />
+        </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+</div>
 
 {% include '_partials/_footer.html' %}
