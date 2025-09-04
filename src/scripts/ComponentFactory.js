@@ -8,6 +8,7 @@ export default class ComponentFactory {
     this.componentList = {
       Header,
       Carousel,
+      Scrolly,
     };
     this.init();
   }

@@ -30,7 +30,6 @@ export default class Scrolly {
       if (entry.isIntersecting) {
         target.classList.add('is-active');
         if (target.dataset.noRepeat == 'true') {
-          console.log('Banana.');
           target.classList.add('is-active');
           observer.unobserve(target);
         }
